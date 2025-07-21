@@ -1,7 +1,1 @@
 *.pyc
-
-# checkpoint directories
-checkpoint/*
-
-# data
-data/*

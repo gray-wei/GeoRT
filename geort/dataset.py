@@ -47,7 +47,7 @@ class RobotKinematicsDataset:
         self.qpos = np_array["qpos"]
         self.keypoints = np_array["keypoint"].item()
         self.keypoint_names = keypoint_names
-        # print("Keypoint Names", self.keypoint_names)  # Commented out to reduce verbose output
+        print("Keypoint Names", self.keypoint_names)
         self.n = len(self.qpos)
         return
     
